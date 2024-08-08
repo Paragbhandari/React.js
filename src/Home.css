@@ -1,0 +1,36 @@
+section{
+    background-image: url("./Image/Hero_section.png");
+    /* background-blend-mode: multiply; */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.logo{
+    height: 20px;
+    
+}
+.head{
+    font-size: 15px;
+}
+.btn{
+    font-size: 8px;
+}
+
+/* specific css */
+.container{
+    max-width: 1200px;
+    width: 85%;
+    margin: 0 auto;
+}
+
+/* Media */
+
+@media(max-width: 500px){
+    body{
+        display: flex;
+        justify-content: center;
+    }
+}
+
